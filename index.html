@@ -14,26 +14,56 @@
 </head>
 
 <body background="images/fondo-kartel-v1.jpg">
-    <header class="navbar navbar-expand-lg bd-navbar navbar-dark bg-dark sticky-top">
-        <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
+    <header class="bd-navbar navbar-dark bg-dark sticky-top">
 
-            <a class="navbar-brand imgLogo" href="#">
-                <img src="images/kartel v1.png" alt="Logo del Kartel de las Moritaz" width="252" height="54">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Página Principal</a>
-                    <a class="nav-link" href="https://karg315.github.io/Horarios-Kartel/">Horarios</a>
-                    <a class="nav-link" href="https://karg315.github.io/Torneos-Kartel/">Torneos</a>
-                    <a class="nav-link" href="https://karg315.github.io/Eventos-Kartel/">Eventos</a>
-                    <a class="nav-link disabled">Herramientas</a>
+
+        <!-- Nuevo NavBar -->
+        <nav class="navbar-dark bg-dark navbar navbar-expand-lg container-xxl bd-gutter flex-wrap flex-lg-nowrap">
+            <div class="container-fluid">
+                <a class="navbar-brand imgLogo" href="https://karg315.github.io/Pag-Principal-Kartel/">
+                    <img src="images/kartel v1.png" alt="Logo del Kartel de las Moritaz" width="252" height="54">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="https://karg315.github.io/Pag-Principal-Kartel/">Página Principal</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Horarios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://karg315.github.io/Torneos-Kartel/2023-1/index.html">2023-1</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">2022-2</a></li>
+                                <li><a class="dropdown-item" href="#">2022-1</a></li>
+                                <li><a class="dropdown-item" href="#">2021-2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://karg315.github.io/Torneos-Kartel/">Torneos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://karg315.github.io/Eventos-Kartel/">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Herramientas</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
+        <!-- Fin Nuevo NavBar-->
+
     </header>
 
     <!--xd-->
@@ -55,7 +85,9 @@
                 <div class="col">
                     <div class="card">
                         <a href="https://karg315.github.io/Horarios-Kartel/"><img src="images/horarios.jpg"
-                                class="card-img-top" alt="Horarios"></a>
+                                class="card-img-top imgLinks" alt="Horarios">
+                            <h2 class="txt-links">Horarios</h2>
+                        </a>
                         <div class="card-body">
                             <h5 class="card-title">Horarios</h5>
                             <p class="card-text">En esta página se encuentran publicados los horarios tanto de miembros
